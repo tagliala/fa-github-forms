@@ -19,17 +19,24 @@ body:
       description: What happened? What are you seeing? How did you arrive here?
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: reproducible-test-case
     attributes:
       label: Reproducible test case
-      description: Describe any details about the test case that we need to know
-      value: Insert a URL to your test case - use codepen.io, jsfiddle.net, jsbin.com, codesandbox.io, or whatever.
+      description: Provide a URL to a reproducible use case. Use codepen.io, jsfiddle.net, jsbin.com, codesandbox.io, or whatever.
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: Add screenshots to help explain your problem
+  - type: input
+    id: version
+    attributes:
+      label: Font Awesome Version
+      description: Provide the version of Font Awesome affected by this bug
+      placeholder: v5.15.0
+    validations:
+      required: true
   - type: dropdown
     id: serving
     attributes:
@@ -54,27 +61,14 @@ body:
         - Other (please specify in the bug description)
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: textarea
+    id: browser-operating-system
     attributes:
-      label: Browsers
-      description: Check browsers affected by this bug. [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
-      multiple: true
-      options:
-        - Chrome
-        - Internet Explorer
-        - Firefox
-        - Safari
-        - Microsoft Edge
-        - Opera
-        - Yandex
-        - Other (please specify in the bug description)
-    validations:
-      required: true
-  - type: input
-    id: version
-    attributes:
-      label: Version
+      label: Browser and Operating System
+      description: Provide information about the browser and opeating system affected by this bug. [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
+      placeholder: |
+        - Chrome 94 on Windows 10
+        - Firefox 92 on macOS
     validations:
       required: true
   - type: checkboxes
