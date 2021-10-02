@@ -1,5 +1,5 @@
-name: Bug report (Web)
-description: Create a report to help us improve
+name: Bug report (Web - CSS - JS)
+description: Report a bug which occurs in a Web Application
 title: "Bug: "
 labels: ["bug", "waiting for feedback"]
 body:
