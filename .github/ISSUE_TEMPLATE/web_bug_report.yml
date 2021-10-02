@@ -58,7 +58,7 @@ body:
     id: browsers
     attributes:
       label: Browsers
-      description: [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
+      description: Check browsers affected by this bug. [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
       multiple: true
       options:
         - Chrome
