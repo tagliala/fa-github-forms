@@ -46,7 +46,7 @@ body:
         - Kit
         - Font Awesome CDN
         - Self-hosted
-        - Other (please specify in the bug description)
+        - Other (as specified in the bug description)
     validations:
       required: true
   - type: dropdown
@@ -58,7 +58,7 @@ body:
         - CSS
         - SVG+JS
         - SVG Sprites
-        - Other (please specify in the bug description)
+        - Other (as specified in the bug description)
     validations:
       required: true
   - type: textarea
