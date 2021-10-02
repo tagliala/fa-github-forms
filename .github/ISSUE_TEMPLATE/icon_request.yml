@@ -6,12 +6,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to request a new icon!
-
-        Please take a look at our [Icon Leaderboard FAQs](https://fontawesome.com/community/leaderboard/new#faqs) to better understand how requests work.
   - type: textarea
     id: use-case
     attributes:
-      label: What can it be used for?
+      label: Use case
       description: Describe how this icon could be used. If you are requesting a brand, please provide details of the brand as well as an official website.
   - type: textarea
     id: example
@@ -27,7 +25,9 @@ body:
           required: true
         - label: 'This is a single icon or matched pair (Ex: `lock` / `unlock`)'
           required: true
+        - label: The request is for a concrete object, or I've included an example image
+          required: true
         - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true
-        - label: The request is for a concrete object, or I've included an example image
+        - label: 'I have [understood how requests work](https://fontawesome.com/community/leaderboard/new#faqs)'
           required: true
