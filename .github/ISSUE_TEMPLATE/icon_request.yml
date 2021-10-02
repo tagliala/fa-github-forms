@@ -1,0 +1,32 @@
+name: Icon request
+description: Suggest an icon to be included in Font Awesome
+title: "Icon request: fa-name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new icon! Please take a look
+        at our [Icon Leaderboard FAQs](https://fontawesome.com/community/leaderboard/new#faqs)
+        to better understand how requests work.
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What can it be used for?
+      description: Describe how this could be used / the use case for this icon.
+  - type: textarea
+    id: example
+    attributes:
+      label: Example image
+      description: Insert the example image here if necessary
+    validations:
+      required: true
+  - type: checkboxes
+    id: icon-request-checklist
+    attributes:
+      label: Icon request checklist
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+        - label: Test 2
+          required: true
