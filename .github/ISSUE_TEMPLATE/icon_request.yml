@@ -5,7 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to request a new icon! Please take a look at our [Icon Leaderboard FAQs](https://fontawesome.com/community/leaderboard/new#faqs) to better understand how requests work.
+        Thanks for taking the time to request a new icon!
+
+        Please take a look at our [Icon Leaderboard FAQs](https://fontawesome.com/community/leaderboard/new#faqs) to better understand how requests work.
   - type: textarea
     id: use-case
     attributes:
@@ -21,11 +23,11 @@ body:
     attributes:
       label: Icon request checklist
       options:
+        - label: 'The title starts with "Icon request: " and is followed by the requested icon name'
+          required: true
         - label: 'This is a single icon or matched pair (Ex: `lock` / `unlock`)'
           required: true
-        - label: 'The title starts with "Icon request: " and is followed by the requested icon name (Ex: `Icon request: magical-unicorn`)'
+        - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true
-        - label: I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate
-          required: true
-        - label: The request is for a concrete object or I've included an example of what I have in mind
+        - label: The request is for a concrete object, or I've included an example image
           required: true
