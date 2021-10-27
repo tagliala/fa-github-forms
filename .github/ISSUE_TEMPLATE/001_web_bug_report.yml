@@ -8,10 +8,10 @@ body:
       value: |
         Thanks for taking the time to fill up this bug report!
 
-        There are a lot of different ways of using Font Awesome. In order to help us
-        debugging, please provide as much information as you can.
+        There are a lot of different ways to use Font Awesome. In order to help us
+        with debugging, please provide as much information as you can.
 
-        A reduced reproducible test case would definitely help the process.
+        A reduced, reproducible test case would definitely help the process.
   - type: textarea
     id: description
     attributes:
@@ -28,12 +28,12 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Add screenshots to help explain your problem
+      description: Add screenshots to help explain your problem.
   - type: input
     id: version
     attributes:
       label: Font Awesome Version
-      description: Provide the version of Font Awesome affected by this bug
+      description: Provide the version of Font Awesome affected by this bug.
       placeholder: v5.15.0
     validations:
       required: true
@@ -65,7 +65,7 @@ body:
     id: browser-operating-system
     attributes:
       label: Browser and Operating System
-      description: Provide information about the browser and opeating system affected by this bug. [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
+      description: Provide information about the browser and opeating system affected by this bug. [List of supported browsers.](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support) [What's my browser?](https://www.whatsmybrowser.org)
       placeholder: |
         - Chrome 94 on Windows 10
         - Firefox 92 on macOS
@@ -76,6 +76,8 @@ body:
     attributes:
       label: Web bug report checklist
       options:
+        - label: 'The title starts with "Bug: " and is followed by a short summary'
+          required: true
         - label: 'I have included a test case because my odds go _way_ up that the team can fix this when I do'
         - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true

@@ -14,8 +14,8 @@ body:
   - type: textarea
     id: example
     attributes:
-      label: Example image
-      description: Insert the example image here if necessary. A good example is a single color image which plays well at small sizes (16px)
+      label: Example images
+      description: Insert example images here if necessary. A good example is a single color image which plays well at small sizes (16px).
   - type: checkboxes
     id: icon-request-checklist
     attributes:
@@ -29,5 +29,5 @@ body:
           required: true
         - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true
-        - label: 'I have [understood how requests work](https://fontawesome.com/community/leaderboard/new#faqs)'
+        - label: 'I [understand how requests work](https://fontawesome.com/community/leaderboard/new#faqs)'
           required: true

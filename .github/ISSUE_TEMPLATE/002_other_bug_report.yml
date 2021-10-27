@@ -18,7 +18,7 @@ body:
     id: version
     attributes:
       label: Font Awesome Version
-      description: Provide the version of Font Awesome affected by this bug
+      description: Provide the version of Font Awesome affected by this bug.
       placeholder: v5.15.0
     validations:
       required: true
@@ -26,7 +26,7 @@ body:
     id: application-operating-system
     attributes:
       label: Application and Operating System
-      description: Provide information about the application and opeating system affected by this bug
+      description: Provide information about the application and opeating system affected by this bug.
       placeholder: |
         - GIMP on Windows 10
         - Adobe Photoshop on macOS
@@ -37,6 +37,8 @@ body:
     attributes:
       label: Web bug report checklist
       options:
+        - label: 'The title starts with "Bug: " and is followed by a short summary'
+          required: true
         - label: 'I have included a test case because my odds go _way_ up that the team can fix this when I do'
         - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true
