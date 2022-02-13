@@ -1,5 +1,5 @@
 name: Bug report (Web - CSS - JS)
-description: Report a bug which occurs in a Web Application
+description: Report a bug which occurs in a web application
 title: "Bug: "
 labels: ["bug", "waiting for feedback"]
 body:
@@ -32,9 +32,9 @@ body:
   - type: input
     id: version
     attributes:
-      label: Font Awesome Version
+      label: Font Awesome version
       description: Provide the version of Font Awesome affected by this bug
-      placeholder: v5.15.0
+      placeholder: v6.0.0
     validations:
       required: true
   - type: dropdown
@@ -65,7 +65,7 @@ body:
     id: browser-operating-system
     attributes:
       label: Browser and Operating System
-      description: Provide information about the browser and opeating system affected by this bug. [List of supported browsers](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/browser-support)
+      description: Provide information about the browser and operating system affected by this bug. [List of supported browsers](https://fontawesome.com/v6/docs/web/dig-deeper/browser-support)
       placeholder: |
         - Chrome 94 on Windows 10
         - Firefox 92 on macOS

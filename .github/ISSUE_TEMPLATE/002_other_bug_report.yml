@@ -1,4 +1,4 @@
-name: Bug report (Desktop / Documentation / Other)
+name: Bug report (Desktop / Native / Other)
 description: Report a bug which occurs outside of a web application
 title: "Bug: "
 labels: ["bug", "waiting for feedback"]
@@ -17,16 +17,16 @@ body:
   - type: input
     id: version
     attributes:
-      label: Font Awesome Version
+      label: Font Awesome version
       description: Provide the version of Font Awesome affected by this bug
-      placeholder: v5.15.0
+      placeholder: v6.0.0
     validations:
       required: true
   - type: textarea
     id: application-operating-system
     attributes:
       label: Application and Operating System
-      description: Provide information about the application and opeating system affected by this bug
+      description: Provide information about the application and operating system affected by this bug
       placeholder: |
         - GIMP on Windows 10
         - Adobe Photoshop on macOS
