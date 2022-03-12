@@ -21,7 +21,7 @@ body:
   - type: string
     attributes:
       label: Brand guidelines
-      description: Link to brand guidelines, if available (e.g.: https://about.twitter.com/en/who-we-are/brand-toolkit)
+      description: "Link to brand guidelines, if available (e.g.: https://about.twitter.com/en/who-we-are/brand-toolkit)"
   - type: checkboxes
     id: icon-request-checklist
     attributes:
