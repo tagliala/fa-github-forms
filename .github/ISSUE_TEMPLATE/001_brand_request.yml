@@ -17,7 +17,8 @@ body:
     attributes:
       label: Official website
       description: Please provide the official website of this brand. The website must be in production and reachable from the public internet
-    required: true
+    validations:
+      required: true
   - type: input
     attributes:
       label: Brand guidelines
