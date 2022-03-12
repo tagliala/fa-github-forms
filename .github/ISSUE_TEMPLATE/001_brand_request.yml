@@ -12,13 +12,13 @@ body:
     attributes:
       label: Description
       description: Please enter a brief description of this brand and why it is important to have it in the core of Font Awesome
-  - type: string
+  - type: input
     id: official-website
     attributes:
       label: Official website
       description: Please provide the official website of this brand. The website must be in production and reachable from the public internet
     required: true
-  - type: string
+  - type: input
     attributes:
       label: Brand guidelines
       description: "Link to brand guidelines, if available (e.g.: https://about.twitter.com/en/who-we-are/brand-toolkit)"
