@@ -1,5 +1,6 @@
 name: Icon request
 description: Suggest an icon to be included in Font Awesome
+labels: ["new icon"]
 title: "Icon request: "
 body:
   - type: markdown
@@ -10,7 +11,7 @@ body:
     id: use-case
     attributes:
       label: Use case
-      description: Describe how this icon could be used. If you are requesting a brand, please provide details of the brand as well as an official website.
+      description: Describe how this icon could be used.
   - type: textarea
     id: example
     attributes:
