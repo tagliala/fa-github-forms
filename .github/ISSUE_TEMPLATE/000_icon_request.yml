@@ -24,6 +24,8 @@ body:
       options:
         - label: 'The title starts with "Icon request: " and is followed by the requested icon name'
           required: true
+        - label: 'This icon does not represent a brand'
+          required: true
         - label: 'This is a single icon or matched pair (Ex: `lock` / `unlock`)'
           required: true
         - label: The request is for a concrete object, or I've included an example image
