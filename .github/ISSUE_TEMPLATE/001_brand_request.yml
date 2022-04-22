@@ -32,5 +32,5 @@ body:
           required: true
         - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
           required: true
-        - label: 'I have [understood how requests work](https://fontawesome.com/community/leaderboard/new#faqs)'
+        - label: 'I have [understood how requests work](https://fontawesome.com/community/leaderboard/brands#faqs)'
           required: true
