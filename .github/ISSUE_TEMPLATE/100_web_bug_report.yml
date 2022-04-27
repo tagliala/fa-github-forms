@@ -1,7 +1,7 @@
 name: Bug report (Web - CSS - JS)
 description: Report a bug which occurs in a web application
 title: "Bug: "
-labels: ["bug", "waiting for feedback"]
+labels: ["bug", "needs-triage"]
 body:
   - type: markdown
     attributes:
