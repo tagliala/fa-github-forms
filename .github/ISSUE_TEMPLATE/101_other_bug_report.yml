@@ -1,7 +1,7 @@
 name: Bug report (Desktop / Native / Other)
 description: Report a bug which occurs outside of a web application
 title: "Bug: "
-labels: ["bug", "waiting for feedback"]
+labels: ["bug", "needs-triage"]
 body:
   - type: markdown
     attributes:
