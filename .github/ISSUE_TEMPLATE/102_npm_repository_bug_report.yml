@@ -1,0 +1,55 @@
+name: Bug report (Pro NPM Repository)
+description: Report a bug with the Pro NPM repository
+title: "Pro NPM Repository Bug: "
+labels: ["bug", "npm.fontawesome.com", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill up this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: What happened? What are you seeing? How did you arrive here?
+    validations:
+      required: true
+  - type: dropdown
+    id: machine-info
+    attributes:
+      label: Machine information
+      description: Provide information about the machine affected by this bug
+      multiple: true
+      options:
+        - Local development machine
+        - Remote machine / Cloud / CI
+    validations:
+      required: true
+  - type: dropdown
+    id: font-awesome-info
+    attributes:
+      label: Font Awesome information
+      description: Provide information about the Font Awesome version affected by this bug
+      multiple: true
+      options:
+        - Font Awesome Free
+        - Font Awesome Pro
+    validations:
+      required: true
+  - type: input
+    id: package-manager-info-version
+    attributes:
+      label: Package Manager information and version
+      description: Provide information about the Package Manager affected by this bug.
+      placeholder: yarn v1.22.19
+    validations:
+      required: true
+  - type: checkboxes
+    id: npm-bug-report-checklist
+    attributes:
+      label: Web bug report checklist
+      options:
+        - label: 'I have an active Font Awesome Pro subscription'
+        - label: 'I have [troubleshot my npm configuration](https://fontawesome.com/v6/docs/web/setup/packages#_5-troubleshooting-your-configuration) and to the best of my knowledge it is correct'
+        - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
+          required: true
